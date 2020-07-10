@@ -1,11 +1,7 @@
 package com.example.publisher.helper;
 
-import org.springframework.stereotype.Component;
+public enum ActionType {
 
-@Component
-public class ActionType {
-    public static final String purchase = "PURCHASE";
-    public static final String subscription = "SUBSCRIPTION";
+    PURCHASE, SUBSCRIPTION;
 
-    public static final String pattern = purchase + "|" + subscription;
 }
